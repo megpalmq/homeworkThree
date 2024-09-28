@@ -1,0 +1,90 @@
+.hero2{
+    background-image: url(../assests/w2e.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    h1{
+        color: white;
+        margin-left: 200px;
+        margin-top: 200px;
+        font-size: 100px;
+    }
+
+}
+.text-container{
+    background-color: #74fcd3;
+    display: flex;
+    justify-content: center;
+    height: 900px;
+    align-items: center;
+    font-size: 20px;
+
+.images{
+    padding: 20px;
+    background-color: pink;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    
+    .pic1{
+    background-color: #D5FCA7;
+    width: 350px;
+    height: 370px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    .imgs1{
+        background-image: url(../assests/ew&f.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 300px;
+        
+    }
+}
+.pic2{
+    background-color: #D5FCA7;
+    width: 350px;
+    height: 370px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+    .imgs2{
+        background-image: url(../assests/indila.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 300px;
+        border-radius: 30px;
+        border: solid 5px #D5FCA7,
+        
+    }
+}
+.pic3{
+    background-color: #D5FCA7;
+    width: 350px;
+    height: 370px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    .imgs3{
+        background-image: url(../assests/am.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 300px;
+        
+    }
+}
+}
+}

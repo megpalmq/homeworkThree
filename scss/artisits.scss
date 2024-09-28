@@ -1,0 +1,56 @@
+.hero4{
+    background-image: url(../assests/orr.webp);
+    background-position: 25% 25%;;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    h1{
+        color: white;
+        margin-left: 200px;
+        margin-top: 250px;
+        font-size: 100px;
+    }
+}
+$artist-list-bg: #74fcd3;
+$artist-name-color: black;
+$artist-genre-color: #777;
+
+.artist-list {
+  background-color: $artist-list-bg;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+  h1 {
+    text-align: center;
+    color: $artist-name-color;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+
+      .name {
+        color: $artist-name-color;
+        font-weight: bold;
+      }
+
+      .genre {
+        color: $artist-genre-color;
+      }
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+}
