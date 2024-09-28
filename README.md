@@ -14,4 +14,5 @@ Make sure your folder structure is organized and that you style this using scss.
 
 Upload this to the web 4 server and to Github as well. Remember to add to. your Readme file and put the link to Web 4 inside the Readme file. 
 
-Submit the Github link to this assignment.>
+Submit the Github link to this assignment.
+<h4>Web 4 link:</h4>
