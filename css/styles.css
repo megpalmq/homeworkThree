@@ -309,6 +309,16 @@ nav .links a {
   background-color: #1a1a1a;
 }
 
+.bear {
+  background-image: url(../assests/bear.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  flex-direction: column;
+}
+
 .footer {
   background-color: pink;
   color: #74fcd3;

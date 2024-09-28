@@ -3,11 +3,14 @@ $form-bg: #fff;
 $label-color: #555;
 $button-bg: #333;
 $button-color: #fff;
+
+
 .back{
 height: 100%;
 display: flex;
 width: 100%;
 background-color: pink ;
+
 
 .contact-container {
   background-color: #74fcd3;
@@ -68,4 +71,15 @@ background-color: pink ;
     }
   }
 }
+
+}
+.bear{
+  background-image: url(../assests/bear.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  flex-direction: column;
+
 }
